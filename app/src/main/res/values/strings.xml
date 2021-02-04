@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MacetApp</string>
+    <string name="splash_image">splash_image</string>
+    <string name="macetapp">MacetApp</string>
+    <string name="smart_people_smart_trees">Smart people, smart trees</string>
+    <string name="welcome">Welcome</string>
+    <string name="to">to</string>
+    <string name="point">.</string>
+    <string name="textview">TextView</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="forget_in">Forget password?</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="empty_string">empty_string</string>
+    <string name="or_create_account">Or create account</string>
+</resources>
