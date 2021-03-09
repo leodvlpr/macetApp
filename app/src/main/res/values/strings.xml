@@ -14,4 +14,9 @@
     <string name="sign_in_with_google">Sign in with Google</string>
     <string name="empty_string">empty_string</string>
     <string name="or_create_account">Or create account</string>
+    <string name="button">Button</string>
+    <string name="button2">Button</string>
+    <string name="button3">Button</string>
+    <string name="next">Button</string>
+    <string name="previous">Button</string>
 </resources>

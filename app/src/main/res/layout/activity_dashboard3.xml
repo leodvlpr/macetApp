@@ -6,11 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".Dashboard">
 
+    <View
+        android:id="@+id/view"
+        android:layout_width="417dp"
+        android:layout_height="732dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#292929"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
     <Button
         android:id="@+id/button"
         android:layout_width="86dp"
         android:layout_height="86dp"
         android:layout_marginStart="32dp"
+        android:backgroundTint="#292929"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -32,31 +46,16 @@
         android:layout_width="86dp"
         android:layout_height="86dp"
         android:layout_marginEnd="32dp"
-        android:backgroundTint="#292929"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.959" />
-
-    <View
-        android:id="@+id/view"
-        android:layout_width="350dp"
-        android:layout_height="268dp"
-        android:background="#FFFFFF"
-        android:backgroundTint="#292929"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.524"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.416" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="175dp"
         android:layout_height="68dp"
         android:layout_marginTop="460dp"
-        android:backgroundTint="#292929"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.151"
         app:layout_constraintStart_toEndOf="@+id/button5"
@@ -68,6 +67,7 @@
         android:layout_height="68dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="460dp"
+        android:backgroundTint="#292929"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -106,6 +106,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-medium"
         android:text="Doggy El Dog"
+        android:textColor="#FFFFFF"
         android:textSize="18dp"
         tools:layout_editor_absoluteX="156dp"
         tools:layout_editor_absoluteY="67dp" />
@@ -115,9 +116,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Buenos Aires, ARG"
+        android:textColor="#FFFFFF"
         android:textSize="11dp"
         tools:layout_editor_absoluteX="156dp"
         tools:layout_editor_absoluteY="96dp" />
+
+    <View
+        android:id="@+id/viewLine"
+        android:layout_width="320dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="168dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
